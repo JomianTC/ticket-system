@@ -1,0 +1,17 @@
+# Node
+node_modules/
+package-lock.json
+
+# ENV
+.env
+
+# DATABASE
+mongo/
+postgres/
+
+# Dist
+dist/
+build/
+
+# Test
+coverage/

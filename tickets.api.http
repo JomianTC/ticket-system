@@ -1,0 +1,25 @@
+### Este archivo funciona con la extension de VS-CODE
+### REST-CLIENT
+
+### Consultas para los tickets
+
+###* Obtener todos los tickets
+GET http://localhost:3000/api/ticket
+
+###* Obtener el ultimo ticket
+GET http://localhost:3000/api/ticket/last
+
+###* Obtener ticket pendiente
+GET http://localhost:3000/api/ticket/pending
+
+###* Crear un ticket
+POST http://localhost:3000/api/ticket
+
+###* Mostrar ticket en el escritorio
+GET http://localhost:3000/api/ticket/draw/escritorio 1
+
+###* Marcar como completado un ticket
+PUT http://localhost:3000/api/ticket/done/ecbbb0e3-98cc-4775-9c5b-3def38c66ec6
+
+###* Tickets en los cuales se esta trabajando
+GET http://localhost:3000/api/ticket/working-on
